@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^8.4.0",
+    "@prisma/client": "^5.5.2",
+    "fastify": "^4.24.3"
+  },
+  "devDependencies": {
+    "prisma": "^5.5.2",
+    "tsx": "^3.14.0",
+    "typescript": "^5.2.2"
+  }
+}
