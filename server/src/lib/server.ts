@@ -1,6 +1,6 @@
 import fastify from 'fastify'
 import cors from '@fastify/cors'
-import { appRoutes } from './lib/routes'
+import { appRoutes } from './routes'
 
 const app = fastify()
 
